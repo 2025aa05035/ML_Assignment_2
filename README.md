@@ -91,28 +91,23 @@ The application is deployed using **Streamlit Community Cloud** and is accessibl
 ---
 
 ## Project Structure
-ml_assignment_2/
-│
+.
 ├── app.py
 ├── create_dataset.py
-├── requirements.txt
+├── data
+│   └── breast_cancer.csv
+├── model
+│   ├── Decision Tree.pkl
+│   ├── evaluate_models.py
+│   ├── KNN.pkl
+│   ├── Logistic Regression.pkl
+│   ├── Naive Bayes.pkl
+│   ├── Random Forest.pkl
+│   ├── scaler.pkl
+│   ├── train_model.py
+│   └── XGBoost.pkl
 ├── README.md
-├── .gitignore
-│
-├── data/
-│ └── breast_cancer.csv
-│
-├── model/
-│ ├── train_models.py
-│ ├── evaluate_models.py
-│ ├── scaler.pkl
-│ ├── Logistic Regression.pkl
-│ ├── Decision Tree.pkl
-│ ├── KNN.pkl
-│ ├── Naive Bayes.pkl
-│ ├── Random Forest.pkl
-│ └── XGBoost.pkl
-
+└── requirements.txt
 
 ---
 
@@ -125,3 +120,4 @@ The application is deployed using **Streamlit Community Cloud** by linking the G
 ## Conclusion
 
 This project demonstrates a complete machine learning pipeline from dataset preparation to model deployment. Multiple classification models were trained and evaluated using standard performance metrics, and an interactive Streamlit dashboard was developed to visualize results and allow user interaction. The project strictly follows the assignment guidelines and showcases practical machine learning deployment skills.
+
